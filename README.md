@@ -72,5 +72,9 @@ We can verify in airflow UI <br>
 2.2.2. Clickhouse connection <br>
 ![Alt text](https://github.com/vannguyende/user_img/blob/5018ae6668ced2d8133cbc274b48966d8aca8efa/clickhouse_db.png)
 
-2.3. Trigger dag
+2.3. Trigger dag <br>
+
+We access the graph to check the health status of each task  <br>
+![Alt text](https://github.com/vannguyende/user_img/blob/c515c978623dfebe291ed25971fe052709183276/grap-airflow.png) <br>
+
 
