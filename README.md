@@ -43,7 +43,7 @@ python3 main.py --insert
 python3 main.py
 ```
 
-* Structure <br>
+* Structure:  <br>
 ![Alt text](https://github.com/vannguyende/user_img/blob/0e01a42ee6d1de7003aa069d0854577d11751054/structure.png)
 
 1.6. View analysis notebook (optional)
@@ -59,13 +59,13 @@ Dependences: <br>
 
 2.1. Deploy dags to airflow cluster <br>
 Note: 
-* Need to map `dags` directory with `dags_folder` as a config in airflow. To simplify, we can copy dag file to dags_folder dir in airflow.
+* Need to map `dags` directory with `dags_folder` as a config in Airflow. To simplify, we can copy dag file to dags_folder dir in Airflow.
 The same with `plugins` directory, we need to map with `plugins_folder`.
 
-We can verify in airflow UI <br>
+Verify dags info in Airflow UI <br>
 ![Alt text](https://github.com/vannguyende/user_img/blob/8b907984931724575385cde45c27cd4556971cc4/dags.png)
 
-2.2. Create airflow connection <br>
+2.2. Create connection <br>
 2.2.1. Postgres connection <br>
 ![Alt text](https://github.com/vannguyende/user_img/blob/5018ae6668ced2d8133cbc274b48966d8aca8efa/postgres_db.png)
 
@@ -74,7 +74,7 @@ We can verify in airflow UI <br>
 
 2.3. Trigger dag <br>
 
-We access the graph to check the health status of each task  <br>
+Access the graph to check the health status of each task  <br>
 ![Alt text](https://github.com/vannguyende/user_img/blob/c515c978623dfebe291ed25971fe052709183276/grap-airflow.png) <br>
 
 
