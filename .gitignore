@@ -1,0 +1,3 @@
+env/
+python_script/dataset/output/data_cleaned.pkl
+python_script/dataset/raw/online_retail_II.xlsx
